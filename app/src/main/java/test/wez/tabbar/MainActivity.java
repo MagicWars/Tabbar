@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //测试更新提交Toast弹出代码
         Toast.makeText(this,"测试Toast",Toast.LENGTH_SHORT).show();
+        //分支代码
+        Toast.makeText(this,"分支Toast",Toast.LENGTH_SHORT).show();
         initBottomNavigation();
         initData();
     }
